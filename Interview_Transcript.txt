@@ -1,0 +1,111 @@
+Question 1
+How do you handle overfitting in a deep learning model, and what techniques have you used to prevent it in your previous projects?
+
+Answer
+simply model , increase data quantity using data augmentaion and use regularization technique like dropout or weight decay
+
+
+Score: 6/10
+
+Strengths: 
+- The candidate has mentioned some relevant techniques to handle overfitting, such as data augmentation and regularization techniques like dropout or weight decay.
+- They have also acknowledged the importance of increasing data quantity.
+
+Weaknesses: 
+- The answer lacks detail and clarity, with the candidate failing to elaborate on how these techniques are implemented or their effects on the model.
+- There is no mention of other techniques that can be used to prevent overfitting, such as early stopping, batch normalization, or transfer learning.
+- The candidate's response is brief and lacks technical depth, which may indicate a limited understanding of the topic.
+
+Suggestions: 
+- Provide more specific examples of how data augmentation and regularization techniques have been used in previous projects.
+- Elaborate on the effects of these techniques on the model's performance and how they helped to prevent overfitting.
+- Consider mentioning other techniques that can be used to prevent overfitting, such as early stopping, batch normalization, or transfer learning.
+
+Overall Feedback: 
+The candidate has demonstrated some basic knowledge of techniques used to prevent overfitting in deep learning models. However, the answer lacks technical depth and clarity, which may indicate a need for further learning and experience in this area. With more detailed explanations and examples, the candidate could provide a more comprehensive and convincing response.
+
+----------------------------------------------------------------------
+Question 2
+Can you explain the concept of attention mechanisms in neural networks and provide an example of how you've implemented it in a real-world application?
+
+Answer
+the model tries to compress an entrie input sequence into a single fixed length
+
+Score: 2/10
+
+Strengths: 
+The candidate attempts to approach the topic of neural networks and attention mechanisms, showing some basic familiarity with the subject.
+
+Weaknesses: 
+The candidate's answer is incomplete, lacking a clear explanation of attention mechanisms. The statement about compressing an entire input sequence into a single fixed length seems to refer more to the general concept of sequence encoding rather than attention mechanisms specifically. There is no example provided of how they've implemented it in a real-world application as requested.
+
+Suggestions: 
+To improve, the candidate should provide a detailed explanation of what attention mechanisms are, how they function within neural networks (e.g., focusing on specific parts of the input that are relevant for the task at hand), and give a concrete example of implementing attention in a project, such as a machine translation model or an image captioning model.
+
+Overall Feedback: 
+The candidate's response indicates a very basic understanding of neural networks but fails to demonstrate a grasp of attention mechanisms or the ability to apply them in practical scenarios. To succeed in a role involving neural network development, the candidate needs to significantly deepen their knowledge and be able to communicate complex concepts clearly and accurately.
+
+----------------------------------------------------------------------
+Question 3
+How do you stay current with the latest advancements in AI and machine learning, and what resources do you rely on to continue learning and growing as an AI engineer?
+
+Answer
+to craft strong response you should focus on multi channel approach
+
+Score: 2/10
+
+Strengths: 
+The candidate acknowledges the importance of a multi-channel approach, which is a good starting point for staying current with the latest advancements in AI and machine learning.
+
+Weaknesses: 
+The answer is extremely brief and lacks specific details about the resources, methods, or channels the candidate uses to stay current. It does not demonstrate any depth of knowledge or personal experience in learning and growing as an AI engineer.
+
+Suggestions: 
+To improve, the candidate should provide specific examples of resources they rely on, such as online courses, research papers, conferences, or professional networks. They should also explain how they apply the knowledge gained from these resources to their work or projects, and discuss any personal projects or initiatives they are undertaking to continue learning and growing in the field.
+
+Overall Feedback: 
+The candidate's answer falls short in demonstrating their ability to stay current with the latest advancements in AI and machine learning. A more detailed and specific response is necessary to showcase their commitment to ongoing learning and professional growth as an AI engineer.
+
+----------------------------------------------------------------------
+Question 4
+Describe a situation where you had to collaborate with a cross-functional team to develop and deploy an AI-powered solution, and what was your role in the project?
+
+Answer
+i acted as lead developer collaborating with data data scientist product manager
+
+Score: 2/10
+
+Strengths: 
+The candidate has mentioned their role in the project as a lead developer and has identified some of the key stakeholders they collaborated with, such as data scientists and product managers.
+
+Weaknesses: 
+The answer is very brief and lacks specific details about the project, the AI-powered solution, and the candidate's contributions to the collaboration. The candidate's role and responsibilities are not clearly defined, and there is no mention of the challenges they faced or the outcomes of the project.
+
+Suggestions: 
+To improve this answer, the candidate should provide more context about the project, including its goals, scope, and timeline. They should also describe their specific responsibilities as a lead developer, how they collaborated with the data scientists and product managers, and what they learned from the experience. Additionally, the candidate should quantify their achievements by mentioning any metrics or outcomes that demonstrate the success of the project.
+
+Overall Feedback: 
+The candidate's answer demonstrates a lack of preparation and clarity in communicating their experience and skills. To effectively answer this question, the candidate should provide a more detailed and structured response that highlights their technical expertise, collaboration skills, and ability to drive project outcomes.
+
+----------------------------------------------------------------------
+Question 5
+Suppose you're tasked with developing a chatbot that can understand and respond to user queries, but the training data is limited and biased; how would you approach this problem, and what steps would you take to ensure the chatbot is fair and effective?
+
+Answer
+we can structure data around dataaugmentation bias mitigation and continuous evaluation
+
+Score: 4/10
+
+Strengths: 
+The candidate has identified key concepts related to addressing limited and biased training data, including data augmentation, bias mitigation, and continuous evaluation. This shows they are aware of the importance of these aspects in developing a fair and effective chatbot.
+
+Weaknesses: 
+The answer is extremely brief and lacks specific details on how to implement these concepts. It does not provide a clear approach or steps to tackle the problem of limited and biased training data. The candidate's response seems more like a list of buzzwords rather than a thoughtful, well-structured answer.
+
+Suggestions: 
+To improve, the candidate should provide a more detailed explanation of their approach, including specific techniques for data augmentation, methods for bias mitigation (such as data preprocessing, using diverse datasets, or debiasing algorithms), and how they plan to conduct continuous evaluation (such as through user feedback mechanisms or periodic audits). They should also consider discussing the importance of transparency, explainability, and accountability in the chatbot's decision-making process.
+
+Overall Feedback: 
+While the candidate touches on relevant concepts, their answer lacks depth and clarity. To effectively address the challenge of developing a fair and effective chatbot with limited and biased training data, it's crucial to provide a comprehensive and well-structured approach that includes specific strategies and techniques. The candidate needs to demonstrate a more thorough understanding of the issues and potential solutions to convince that they can handle such a complex task.
+
+----------------------------------------------------------------------
