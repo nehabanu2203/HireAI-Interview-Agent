@@ -1,6 +1,10 @@
+import os
 from groq import Groq, APIConnectionError
-from config import GROQ_API_KEY, MODEL_NAME
+from config import MODEL_NAME, GROQ_API_KEY
 from prompts import QUESTION_PROMPT
+
+if not GROQ_API_KEY:
+    raise ValueError("GROQ_API_KEY is not set. Please add it to your .env file.")
 
 client = Groq(api_key=GROQ_API_KEY)
 
