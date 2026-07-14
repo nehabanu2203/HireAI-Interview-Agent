@@ -207,43 +207,43 @@ The application provides
 
 ## 🏠 Home Page
 
-![Home Page](screenshots/home.png)
+![Home Page](screenshots/home.png.png)
 
 ---
 
 ## 👤 Candidate Registration
 
-![Registration](screenshots/registration.png)
+![Registration](screenshots/registration.png.png)
 
 ---
 
 ## 🤖 AI Interview
 
-![Interview](screenshots/interview.png)
+![Interview](screenshots/interview.png.png)
 
 ---
 
 ## 📊 AI Evaluation
 
-![Evaluation](screenshots/evaluation.png)
+![Evaluation](screenshots/evaluation.png.png)
 
 ---
 
 ## 🎉 Final Result
 
-![Result](screenshots/result.png)
+![Result](screenshots/result.png.png)
 
 ---
 
 ## 👨‍💼 Recruiter Dashboard
 
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](screenshots/dashboard.png.png)
 
 ---
 
 ## 📄 PDF Report
 
-![Report](screenshots/report.png)
+![Report](screenshots/report.png.png)
 
 
 ## Recommended workflow for demos
