@@ -41,19 +41,25 @@ def generate_questions(role):
     questions = []
 
     for line in result.split("\n"):
-
         line = line.strip()
 
         if line == "":
             continue
 
         if line[0].isdigit():
+            # split on the earliest numbering delimiter ('.' or ')')
+            dot_idx = line.find('.')
+            par_idx = line.find(')')
+            sep = None
+            if dot_idx != -1 and par_idx != -1:
+                sep = '.' if dot_idx < par_idx else ')'
+            elif dot_idx != -1:
+                sep = '.'
+            elif par_idx != -1:
+                sep = ')'
 
-            if "." in line:
-                line = line.split(".",1)[1].strip()
-
-            elif ")" in line:
-                line = line.split(")",1)[1].strip()
+            if sep:
+                line = line.split(sep, 1)[1].strip()
 
         questions.append(line)
 
