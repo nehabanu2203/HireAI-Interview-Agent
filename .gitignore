@@ -49,5 +49,9 @@ wheels/
 # Logs
 *.log
 
+# Test and coverage artifacts
+coverage.xml
+reports/
+
 # Data (optional - uncomment if you want to ignore data files)
 # data/
