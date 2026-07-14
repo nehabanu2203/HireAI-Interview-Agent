@@ -20,11 +20,13 @@ jobs:
           python -m pip install --upgrade pip
           pip install pytest pytest-cov
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-      - name: Run tests with coverage
+      - name: Run tests with coverage and produce XML reports
         run: |
-          pytest --maxfail=1 --disable-warnings -q --cov=.
-      - name: Upload coverage to artifact
+          pytest --maxfail=1 --disable-warnings -q --cov=. --cov-report=xml:coverage.xml --junitxml=reports/junit.xml
+      - name: Upload test and coverage reports
         uses: actions/upload-artifact@v4
         with:
-          name: coverage-report
-          path: .
+          name: test-reports
+          path: |
+            coverage.xml
+            reports/junit.xml
