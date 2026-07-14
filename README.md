@@ -173,11 +173,11 @@ GROQ_API_KEY=YOUR_API_KEY
 Run Project
 
 ```bash
-streamlit run interview_agent.py
+python -m streamlit run interview_agent.py
 ```
 If streamlit isn't recognized:
 ```bash
-python -m streamlit run interview_agent.py
+streamlit run interview_agent.py
 ```
 
 # 📊 Output
@@ -202,6 +202,48 @@ The application provides
 - Multi-language Interview
 - Cloud Database
 - Email Report Generation
+
+# 📸 Project Screenshots
+
+## 🏠 Home Page
+
+![Home Page](screenshots/home.png)
+
+---
+
+## 👤 Candidate Registration
+
+![Registration](screenshots/registration.png)
+
+---
+
+## 🤖 AI Interview
+
+![Interview](screenshots/interview.png)
+
+---
+
+## 📊 AI Evaluation
+
+![Evaluation](screenshots/evaluation.png)
+
+---
+
+## 🎉 Final Result
+
+![Result](screenshots/result.png)
+
+---
+
+## 👨‍💼 Recruiter Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+---
+
+## 📄 PDF Report
+
+![Report](screenshots/report.png)
 
 
 ## Recommended workflow for demos
